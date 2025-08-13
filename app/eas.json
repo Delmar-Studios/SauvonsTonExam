@@ -1,10 +1,6 @@
 {
   "cli": {
-<<<<<<< HEAD
-    "version": ">= 5.2.0"
-=======
-    "version": ">= 12.4.0"
->>>>>>> 85ae20b08e571b71ab2c8a23461a18259b92f1eb
+    "version": ">= 7.8.6"
   },
   "build": {
     "development": {
@@ -19,11 +15,16 @@
     },
     "production": {
       "android": {
-        "buildType": "apk"
+        "buildType": "aab"
       }
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "../path/to/api-key.json",
+        "track": "internal"
+      }
+    }
   }
 }

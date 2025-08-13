@@ -1,7 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
   <uses-permission android:name="android.permission.CAMERA"/>
   <uses-permission android:name="android.permission.INTERNET"/>
+<<<<<<< HEAD
   <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+=======
+>>>>>>> 85ae20b08e571b71ab2c8a23461a18259b92f1eb
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
   <uses-permission android:name="android.permission.RECORD_AUDIO"/>
   <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
